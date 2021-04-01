@@ -2,7 +2,6 @@ module.exports.requestGroupActions = [
   {
     label: 'Send All Requests',
     action: async (context, data) => {
-      console.log(context)
       const { requests } = data;
 
       let results = [];
